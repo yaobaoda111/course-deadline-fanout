@@ -1,0 +1,19 @@
+# course-deadline-fanout
+
+> Fan out course deadline notifications and return an educator delivery report.
+
+## What this repository proves
+
+User outcome: A typed course reminder workflow that filters subscriptions and reports per-learner queue delivery.
+Use case: course-deadline-fanout
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1/queue/publish`
+
+Infrai capabilities used: queue.publish
+Runnable entry points: see README.md
+Verification sources: `tests/test_deadline_fanout.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

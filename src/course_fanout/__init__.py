@@ -1,0 +1,1 @@
+"""Course deadline fanout example."""
